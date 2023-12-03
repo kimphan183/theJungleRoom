@@ -10,7 +10,7 @@ bool servoInMotion = false;
 void setup() {
   CircuitPlayground.begin();
   Serial.begin(9600);
-  myServo.attach(A3);
+  myServo.attach(A3); //Servo is attached to A3 pin
   pinMode(13, OUTPUT);
 }
 
