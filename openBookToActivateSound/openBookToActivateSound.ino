@@ -1,6 +1,6 @@
 #include <Adafruit_CircuitPlayground.h>
 
-#define ANALOGPIN      A1  // Potentiometer connected to A2A1 
+#define ANALOGPIN      A1  // Potentiometer connected to A1 
 
 int delayval = 500;        // delay for half a second
 
