@@ -17,7 +17,7 @@ void setup() {
 
   // Initialize Minim and create an AudioPlayer
   minim = new Minim(this);
-  player = minim.loadFile("forest.wav", 2048);
+  player = minim.loadFile("forest.wav", 2048); //IMPORTANT: Sound file must be in the same folder with this Processing file
 }
 
 void draw() {
